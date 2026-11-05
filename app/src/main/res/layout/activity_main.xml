@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Welcome to the app v2"
+        android:text="Welcome to My App - Combined Version"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="25sp"
