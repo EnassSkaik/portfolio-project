@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Enass Shaban Skaik"
+        android:text="Welcome to the app v1"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="25sp"
@@ -31,7 +31,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginBottom="576dp"
         android:background="@drawable/about_btn"
-        android:text="about me"
+        android:text="about us"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -42,5 +42,15 @@
         app:layout_constraintVertical_bias="0.0">
 
     </androidx.appcompat.widget.AppCompatButton>
+
+    <TextView
+        android:id="@+id/footerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Designed by Enass Skaik"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
