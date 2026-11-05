@@ -13,8 +13,8 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="132dp"
-        android:text="Welcome to My App - Combined Version"
+        android:layout_marginTop="20dp"
+        android:text="Welcome to the app v1"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="25sp"
@@ -27,18 +27,19 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_navigate"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="576dp"
         android:background="@drawable/about_btn"
         android:text="about us"
         android:textColor="@color/white"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/footerTextView"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.022">
+        app:layout_constraintVertical_bias="0.0">
 
     </androidx.appcompat.widget.AppCompatButton>
 
