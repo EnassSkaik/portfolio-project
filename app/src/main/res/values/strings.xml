@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">portfolioProject</string>
+    <string name="about">Portfolio app, a training app to practice what we had learned in first and second weeks in this semester</string>
 </resources>
